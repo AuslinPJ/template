@@ -1,0 +1,44 @@
+/*body background*/
+body{
+	background-image: url("image/bg.jpg");
+	background-size: cover;
+}
+/*nav bar background colour*/
+.navbar{
+	background-color: #f3e36e;
+	margin-top:10px;
+	margin-bottom: 0px;
+}
+.container{
+	max-width:960px;
+}
+
+
+/*marketing background colour*/
+.marketing{
+	background-color: white;
+	text-align: center;
+	padding-top:20px;
+	padding-bottom:30px;
+	padding-left:10px;
+	padding-right:10px; 
+}
+
+
+/*footer*/
+footer{
+	background-color: #eee;
+}
+
+/*responsive */
+@media only screen and (max-width:768px){
+	body{
+		background-image: none;
+	}
+}
+@media only screen and (max-width:500px){
+	body{
+		background-image: none;
+		background-color: yellow;
+	}
+}
